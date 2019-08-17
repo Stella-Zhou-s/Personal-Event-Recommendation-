@@ -1,0 +1,241 @@
+/* step1: init */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #434343;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 0.9em;
+} 
+
+ul {
+	list-style: none;
+} 
+
+/*  step2: top header */
+
+/* 2.1 header */
+.top-header {
+	align-items: center;
+	background: #DF574B;
+	box-shadow: 0px 2px 10px #333333;
+	display: flex; 
+	height: 60px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+} 
+
+.avatar {
+	background: #FFFFFF;
+	border-radius: 50%;
+	color: #333C4D;
+	height: 40px;
+	margin-right: 20px;
+	padding-left: 9px;
+	padding-top: 5px;
+	width: 40px;
+} 
+
+/* 2.2 top navigation */
+.top-nav {
+	flex: 1;
+} 
+
+.top-nav a {
+	color: #F9F9F9;
+	font-weight: 400;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+/* step3: main container */
+.container {
+	margin: 60px auto;
+	max-width: 1000px;
+	min-width: 600px;
+} 
+
+/* 3.1 main header */
+.container>header {
+	align-items: center;
+	background:
+		url('http://prophoto.com.cy/wp-content/galleries/food/food-restaurant-photographer-cyprus-10.jpg')
+		no-repeat 50% 50%;
+	background-size: 100%;
+	display: flex;
+	height: 250px;
+}
+.container>header p {
+	border-left: 1px solid #FFFFFF;
+	font-weight: 400;
+	font-size: 2em;
+	line-height: 1em;
+	margin-left: 220px;
+	padding-left: 5px;
+} 
+
+
+.container>header span {
+	color: #FBAF41;
+}
+
+
+/* 3.2 main section */
+.main-section {
+	background: #F3BB43;
+}
+
+/* 3.2.1 aside */
+#item-nav {
+	float: left;
+	width: 180px;
+}
+.nav-icon {
+	color: #624630;
+	padding: 20px;
+	text-align: center;
+} 
+
+/* 3.2.2 main navigation */
+.main-nav-btn {
+	background: none;
+	border-top: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	display: block;
+	padding: 20px;
+	text-align: left;
+	text-decoration: none;
+}
+
+.main-nav-btn:hover {
+	background: rgba(255, 255, 255, 0.8);
+	color: #624630;
+}
+
+.main-nav-btn.active {
+	background: #F2EBD9;
+	color: #624630;
+} 
+
+.main-nav-btn i {
+	width: 20px;
+} 
+
+/* 3.3 item list */
+#item-list {
+	background: #F2EBD9;
+	color: #624630;
+	list-style: none;
+	margin-left: 180px;
+	min-height: 250px;
+	padding: 10px;
+}
+
+#item-list .notice {
+	font-size: 16px;
+	padding: 60px;
+	text-align: center;
+} 
+
+/**
+ * item
+ */
+.item {
+	align-items: center;
+	border-bottom: 1px solid #FFFFFF;
+	display: flex;
+	margin: 10px;
+	padding: 15px;
+	transition: background-color 100ms linear;
+}
+
+.item:last-child {
+	border: none;
+}
+.item:hover {
+	background: rgba(255, 255, 255, 0.8);
+	transition: background-color 100ms linear;
+}
+
+.item img {
+	border: 1px solid #FFFFFF;
+	height: 80px;
+	width: 80px;
+}
+
+.item>div:first-of-type {
+	flex: 1;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.item-name {
+	color: #624630;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.item-name:hover {
+	text-decoration: underline;
+}
+
+.item-address {
+	line-height: 20px;
+	padding-right: 20px;
+	text-align: right;
+} 
+
+.stars {
+	align-items: center;
+	display: flex;
+	padding-top: 10px;
+} 
+
+.fav-link {
+	border-left: 1px solid #FFFFFF;
+	cursor: pointer;
+	line-height: 60px;
+	text-align: center;
+	width: 60px;
+}
+
+.fav-link:hover {
+	color: #F13F3F;
+}
+
+/* step4: footer section */
+footer {
+	background: #434343;
+	font-size: 0.8em;
+	height: 200px;
+	position: relative;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer p.title {
+	font-size: 1.2em;
+	padding: 15px;
+}
+
+footer ul {
+	align-items: center;
+	display: flex;
+	padding: 20px;
+}
+
+footer ul li {
+	flex: 1;
+} 
+
+
+	
