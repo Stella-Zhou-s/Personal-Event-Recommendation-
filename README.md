@@ -22,10 +22,10 @@
    * Logic tier: Java
 - Local and remote development environment
 
-![local environment](https://raw.githubusercontent.com/Wangxh329/EventRecommendation/master/img_font_icon_sources/doc/local.png)
+![local environment](https://github.com/donghai1/Personal-Event-Recommendation-/tree/master/demo/local.png)
 > Local development environment
 
-![remote environment](https://raw.githubusercontent.com/Wangxh329/EventRecommendation/master/img_font_icon_sources/doc/remote.png)
+![remote environment](https://github.com/donghai1/Personal-Event-Recommendation-/tree/master/demo/remote.png)
 > Remote development environment
 
 ## API Design
@@ -57,7 +57,7 @@
       * Set a new user into users table/collection in database
       * return response
 
-![APIs design](https://raw.githubusercontent.com/Wangxh329/EventRecommendation/master/img_font_icon_sources/doc/APIs.png)
+![APIs design](https://github.com/donghai1/Personal-Event-Recommendation-/tree/master/demo/APIs.png)
 > APIs design in logic tier
 
 - TicketMasterAPI
@@ -66,7 +66,7 @@
    * **Content-based Recommendation**: find categories from item profile from a user’s favorite, and recommend the similar items with same categories.
    * Present recommended items with ranking based on distance (geolocation of users)
 
-![recommendation algorithm](https://raw.githubusercontent.com/Wangxh329/EventRecommendation/master/img_font_icon_sources/doc/recommendation.png)
+![recommendation algorithm](https://github.com/donghai1/Personal-Event-Recommendation-/tree/master/demo/recommendation.png)
 > Process of recommend request
 
 ## Database Design
@@ -76,7 +76,7 @@
    * **category** - store item-category relationship
    * **history** - store user favorite history
 
-![mysql](https://raw.githubusercontent.com/Wangxh329/EventRecommendation/master/img_font_icon_sources/doc/mysql.png)
+![mysql](https://github.com/donghai1/Personal-Event-Recommendation-/tree/master/demo/mysql.png)
 > MySQL database design
 
 - MongoDB
