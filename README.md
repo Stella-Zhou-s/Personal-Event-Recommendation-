@@ -98,7 +98,7 @@
 - Online (**ElasticSearch**, **Logstash**, **Kibana**)
    * Use Logstash to fetch log (in NoSQL-like form), then store data in ElasticSearch, finally use Kibana to analyze the data in ElasticSearch, getting some tables and graphs like APIs use, request status, geolocation of visitors, etc
 
-![ELK analysis](https://raw.githubusercontent.com/Wangxh329/EventRecommendation/master/img_font_icon_sources/doc/elk.png)
+![ELK analysis](https://github.com/donghai1/Personal-Event-Recommendation-/tree/master/demo/elk.png)
 > Remote development environment
 
 - Offline (**MapReduce in MongoDB**)
